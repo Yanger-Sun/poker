@@ -1,0 +1,184 @@
+        *{
+        	padding:0;
+        	margin:0;
+        	text-decoration: none;
+        	list-style: none;
+        	letter-spacing: 2px;
+        }
+        body{
+            background-size: 100%;
+            background:url(../image/beijing4.jpg) no-repeat;
+        }
+        .box{
+        	display: none;
+		    width:936px;
+		    height:768px;
+		    margin:0 auto;
+		    position: relative;
+		    background: rgba(125,125,125,0.3);
+		    /* background:url(../image/bigbg3.jpg) center -90px no-repeat; */
+		    background-size: 100%;
+		    box-shadow: 0px 0px 10px #000;
+		}
+		.box .time{
+			width:82px;
+			height:50px;
+			position: absolute;
+			top:20px;
+			right:50px;
+		}
+		.box .time div{
+            width:35px;
+            height:50px;
+			line-height: 50px;
+			text-align: center;
+            margin:0px 2px;
+            float:left;
+            border-radius: 5px;
+            font-size: 20px;
+            box-shadow: 0 0 3px #fff;
+            border-left:1px solid #ccc;
+            border-right:1px solid #ccc;
+            background: rgba(255,255,255,0.6)
+		}
+		.box   .pai{
+			position: absolute;
+			top:0;
+			left:450px;
+		    width:100px;
+		    height:140px;
+		    float: left;
+		    opacity: 0;
+		    background-size: 100%;
+		    box-shadow: -3px -3px 5px #222;
+		}
+		.box .revPaiL,.box .revPaiR{
+            border:1px groove #ccc;
+		    position: absolute;
+            top:505px; 
+            width:100px;
+		    height:140px;
+		    box-shadow: 3px 3px 5px #222;
+		}
+		.box .btnTL,.box .btnTR,.box .fpbtn,.box .rebtn,.box .endbtn{
+			position: absolute;
+			/* left:424px; */
+			width:80px;
+			height:40px;
+			text-align: center;
+			line-height: 40px;
+			background-color:rgba(255,255,255,0.6);
+			border-radius: 5px;
+			cursor: pointer;
+			background-size: 100%;
+			background-position: center center;
+		}
+		.box .endbtn{
+			left:10px;
+			top:110px;
+			box-shadow: 3px 3px 9px #000;
+		}
+		.box .btnTR{
+            bottom:160px;
+            left: 520px; 
+			background-color:rgba(100,100,100,0.6);
+			color:#eee;
+            z-index: 50; 
+            background-image:url(../image/right.png);   
+			box-shadow: 3px 3px 5px #222; 
+		}
+		.box .btnTR:active{
+            background-image:url(../image/right.png);
+		}
+		.box .btnTL:active{
+            background-image:url(../image/left.png);
+		}
+		.box .btnTL{
+			left:400px; 
+			box-shadow: 3px 3px 5px #222;
+            color:#eee; 
+			background-color:rgba(100,100,100,0.3);
+            bottom:160px;
+            z-index: 50;
+            background-image:url(../image/left.png);   
+		}
+		.box .fpbtn{
+			left:10px;
+			top:10px;
+			box-shadow: 3px 3px 9px #000;
+		}
+		.box .rebtn{
+			left:10px;
+			top:60px;
+			box-shadow: 3px 3px 9px #000;
+		}
+		.box .grade{
+			width:80px;
+			height:100px;
+			position: absolute;
+			top:160px;
+			line-height: 30px;
+			text-align: center;
+			left:10px;
+			border: 1px solid #000;
+			border-radius: 10px;
+			background:rgba(255,255,255,0.6);
+			box-shadow: 3px 3px 9px #000;
+		}
+		.box .grade .show{
+			width:80px;
+			height:60px;
+			line-height: 60px;
+			text-align: center;
+			font-size: 20px;
+			box-shadow: 0 0 3px #000;
+		}
+		.box .revPaiL{			
+		    left:264px;		    
+		}
+		.box .revPaiR{			
+		    left:640px;		    
+		}
+		.sjL{
+			position: fixed;
+			left:0;
+			height:20px;
+			background: rgba(255,255,255,0.3);
+			box-shadow: 3px 3px 3px #222;
+		}
+		.sjR{
+			position: fixed;
+			right:0;
+			height:20px;
+			background: rgba(255,255,255,0.3);
+			box-shadow: -3px 3px 3px #222;
+		}
+        .login{
+        	width:400px;
+            height:300px;
+            border: 1px solid #fff;
+            background: rgba(0,0,0,0.3);
+            position: absolute;
+            right:0;
+            top:0;
+            left:0;
+            bottom:0;
+            margin:auto;
+            z-index: 500;
+            background-size: 100%;
+            background-image:url(../image/login.jpg);
+            background-repeat:no-repeat;
+            background-position: center;
+            background-color:#5A3F3B;
+        }
+        .login .start{
+        	text-align: center;
+			line-height: 40px;
+			width:80px;
+			font-size: 13px;
+			margin:215px auto;
+			height: 40px;
+			background-color:rgba(255,255,255,0.6);
+			border-radius: 5px;
+			cursor: pointer;
+        }
